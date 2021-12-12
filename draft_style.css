@@ -1,0 +1,63 @@
+/*   Elements communs à tout le document */
+
+*,*:before,*::after
+{
+    box-sizing:border-box;
+}
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+/*   Bande de navigation */
+
+header{
+    display:flex;
+    justify-content: space-between;
+}
+header ul
+{
+    display:flex;
+    list-style-type:none;
+   
+    
+}
+header ul li{
+    margin-right:30%;
+}
+
+#banniere
+{
+    height:500px;
+    width:100%;
+    border:2px pink solid;
+    background-image: url("../images/backgroung_image.jpg");
+    background-size:cover;
+    background-position:right;
+    position:relative;
+}
+
+
+#banniere h1
+{
+    color:white;
+    position:absolute;
+    left: 44%;
+    top:55%;
+ 
+}
+#banniere img
+{
+    position:absolute;
+    left: 45%;
+    top:40%;
+    width:20%;
+   height:auto;
+}
+
+/*   section  */
+
