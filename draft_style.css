@@ -63,3 +63,18 @@ header ul li
 
 /*   section  */
 
+#textes
+{
+    text-align : center;
+}
+
+.logos
+{
+    display:flex;
+    justify-content:center;
+    width:70%;
+    margin-left:15%;
+    margin-right:15%;
+    margin-top:5%;
+    margin-bottom:5%;
+}
